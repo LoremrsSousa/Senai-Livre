@@ -1,0 +1,142 @@
+:root{
+    --cor-texto:  #383838;
+    --cor-preta: black;
+    --cor-principal: #fff159;
+    --cor-branca: #f1ffff;
+    --cor-valor: #2ca469; 
+    --cor-valorpacelado: #4db68a;
+    --cor-oferta: #3282fd;
+    --padding:20px;
+}
+*{
+    margin: 0px;
+    padding:0px;
+    
+
+}
+#cabecalho{
+    background-color: var(--cor-principal);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid black;
+
+}
+#cabecalho nav a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    padding: 15px;
+    
+}
+
+.form {
+        display: flex;
+        align-items: center;
+      }
+      
+      input[type="text"] {
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        width: 300px;
+      }
+      
+      button[type="submit"] {
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 10px;
+      }
+
+    
+      #corpo{
+        background-color: var(--cor-principal);
+        display:grid;
+            grid-template-columns: repeat(7,1fr);
+            padding: var(--padding)
+       
+    }
+    
+    #main{
+        columns: 5;
+       display: flex;
+       justify-content: space-between;
+       padding: 50px;
+      
+    }
+    .ofertas{
+        border: solid var(--cor-preta);
+        border-radius: 15px;
+         
+    }
+    #secao{
+        columns: 5;
+       display: flex;
+       justify-content: space-between;
+       padding: 50px;
+       text-align: center;
+    }
+    #promocoes{
+        columns: 5;
+       display: flex;
+       justify-content: space-between;
+       padding: 50px;
+       text-align: center;
+       
+    }
+    .promo{
+        border: solid var(--cor-preta);
+        border-radius: 15px;
+    }
+    h2{ 
+     text-align: center;
+    
+    }
+    p{
+        color: var(--cor-valorpacelado);
+        font-size: larger;
+    }
+    h6{
+        background-color: var(--cor-oferta);
+        color: var(--cor-branca);
+        border-radius: 15px;
+        padding: 10px;
+        width: 90px;
+    }
+    h5{
+        font-size: 25px;
+    }
+        
+    #rodape{
+        background-color: var(--cor-principal);
+        color: var(--cor-texto);
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding: 20px;
+    
+    }
+    .text{
+        color: var(--cor-texto);
+    }
+   
+    
+    #botao{
+        text-align: center;
+    }
+    .ofertas figure img {
+        max-width: 74%;
+        display: block;
+        margin: 27px auto;
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+     }
